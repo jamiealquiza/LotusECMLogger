@@ -107,3 +107,8 @@ Learned data reset UI:
 - Safe reset operation with confirmation dialogs
 - OBD Mode 0x11 implementation
 
+
+## Tuning References
+
+- `GT430_TorqueModel.md` — reverse-engineered GT430 (C132E0278) torque model: function addresses, calibration table offsets, limiter thresholds, RAM channels for logging, known CRP/CPT files, and tuning implications. Read it before torque, limiter, friction or calibration-diff work.
+- `FlashingGuide.md` — step-by-step EFI_PROT flashing procedure.
